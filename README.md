@@ -39,25 +39,25 @@ venv\Scripts\activate
 source venv/bin/activate
 ```
 
-###3️⃣ Install Dependencies
+### 3️⃣ Install Dependencies
 ```bash
 pip install -r requirements.txt
 ```
 
-###4️⃣ Run Migrations
+### 4️⃣ Run Migrations
 ```bash
 python manage.py migrate
 ```
 
-###5️⃣ Start the Development Server
+### 5️⃣ Start the Development Server
 ```bash
 python manage.py runserver
 ```
 
-#Then open your browser and go to:
+# Then open your browser and go to:
 👉 http://127.0.0.1:8000/
 
-###🧩 App Structure
+### 🧩 App Structure
 payroll-web/
 │
 ├── accounts/        # Authentication (if added)
@@ -72,7 +72,7 @@ payroll-web/
 └── manage.py
 
 
-#🧾 Example Pages
+# 🧾 Example Pages
 
 
 /employees/ → View all employees
